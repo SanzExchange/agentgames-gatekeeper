@@ -1,0 +1,22 @@
+{
+  "name": "agentgames-proof-gatekeeper",
+  "version": "1.0.0",
+  "description": "Proof Gatekeeper agent for the zkVerify Agent Games (agentgames.zkverify.io)",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/server.mjs",
+  "private": true,
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node test/run_tests.mjs"
+  },
+  "dependencies": {
+    "snarkjs": "^0.7.4"
+  },
+  "keywords": []
+}
